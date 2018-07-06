@@ -1,0 +1,109 @@
+﻿
+        body
+        {  
+            background:linear-gradient(127deg, #f5515f, #e62e3d);           
+        }
+
+        .main-container
+        {  
+            border-radius: 25px;
+            background-color:white;
+            margin-left:16%;
+            margin-right:16%;
+            margin-top:6%;
+            margin-bottom:6%;
+            box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35);
+        }
+
+        #main-container-header
+        {  
+            display:flex;
+            flex-direction:row;
+            margin-left:4%;
+            margin-right:4%;
+            margin-top:8%;
+            margin-bottom:0%;
+            padding:2%;
+        }
+        #dateShow
+        {  
+            text-align:right;
+            width:93%;
+            font-size: 2.3vw;
+            font-weight:700;
+            font-family:sans-serif;
+             color:#9b9b9b;
+             margin-left:2%;
+            margin-right:0%;
+            margin-top:5%;
+            margin-bottom:3%;
+            padding:1%;   
+        }
+        #Date-Badge
+        {
+            margin-left:0%;
+            margin-right:2%;
+            margin-top:5%;
+            margin-bottom:3%;
+            padding:1%;
+            background-color:#f5515f ;
+            width:5%;
+            color:white;
+            font-size:2.3vw;
+            font-family:sans-serif;
+            border-radius:100%;
+            text-align:center; 
+        }
+
+        #main-container-footer
+        {
+            display:flex;
+            justify-content:center;
+            align-content:center;
+            padding:2%;
+            margin-left:4%;
+            margin-right:4%;
+            margin-top:0%;
+            margin-bottom:8%;
+        }
+
+        #tile-container
+        {           
+           display:flex;
+           flex-direction:column;  
+            margin-left:4%;
+            margin-right:4%;
+            margin-top:0%;
+            margin-bottom:0%;          
+        }
+
+        .tile
+        {
+           border-radius:10px;
+           display:flex;
+           flex-direction:row;
+           color:#9b9b9b;        
+           font-size: 2.1vw;
+           font-weight:600;
+           font-family:sans-serif;
+            margin-left:2%;
+            margin-right:2%;
+            margin-top:1%;
+            margin-bottom:1%;
+            background-color:rgb(229, 231, 234);           
+        }
+
+        .dleft
+        {     
+           padding:2%;
+            text-align:left;
+            width:70%;       
+        }
+
+        .dright
+        {
+            padding:2%;
+            text-align:right;
+            width:30%;
+        }
+
